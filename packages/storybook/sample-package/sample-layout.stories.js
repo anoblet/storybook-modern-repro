@@ -8,7 +8,7 @@ export default {
 
 const Template = () => html`
   ${SampleHeaderStory()}
-  <sample-layout></sample-layout>
+  <sample-layout>Sample Layout</sample-layout>
 `;
 
 export const SampleLayoutStory = Template.bind({});
